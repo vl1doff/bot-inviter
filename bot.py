@@ -3,7 +3,7 @@ import requests
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
-TOKEN = os.getenv("8813390776:AAEoJI23IalTELd5P5DIkhfUEmWC1G3mRjY")
+TOKEN = os.getenv("BOT_TOKEN")
 CHAT_ID = -1003122424251
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
